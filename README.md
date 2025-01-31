@@ -18,8 +18,10 @@ go-tcp-example/
 │   │   ├── client
 │── server/
 │   ├── main.go
+│   ├── main_test.go
 │── client/
 │   ├── main.go
+│   ├── main_test.go
 │── go.mod
 │── build.sh
 │── README.md
@@ -35,6 +37,7 @@ go-tcp-example/
 - `go.mod`: Archivo de módulo de Go.
 - `builds.md`: [Guía para manejar los builds](builds.md).
 - `tutorial.md`: [Tutorial paso a paso para configurar el proyecto](tutorial.md).
+- `tests.md`: [Guía para ejecutar tests y benchmarks](tests.md).
 
 ## Compilación
 
@@ -65,10 +68,22 @@ Para ejecutar el cliente, navega a la carpeta `builds/linux/` y ejecuta:
 ./client
 ```
 
+## Tests y Benchmarks
+
+Para ejecutar los tests y benchmarks, utiliza el script `test.sh`:
+
+```sh
+chmod +x test.sh
+./test.sh
+```
+
+Esto ejecutará los tests y benchmarks para el servidor y el cliente.
+
 ## Enlaces Útiles
 
 - [Guía para manejar los builds](builds.md)
 - [Tutorial paso a paso para configurar el proyecto](tutorial.md)
+- [Guía para ejecutar tests y benchmarks](tests.md)
 
 ## Licencia
 
