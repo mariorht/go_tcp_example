@@ -1,7 +1,3 @@
-Aquí tienes un tutorial paso a paso para instalar Go en Ubuntu, configurar VS Code con las extensiones necesarias y crear un proyecto de ejemplo con un servidor y un cliente TCP en Go.
-
----
-
 ## 🔹 Paso 1: Instalar Go en Ubuntu
 ### 1.1. Descargar e instalar Go
 Abre una terminal y ejecuta los siguientes comandos para instalar Go:
